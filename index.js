@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser(secret));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://amazing-froyo-135610.netlify.app",
     credentials: true,
   })
 );
