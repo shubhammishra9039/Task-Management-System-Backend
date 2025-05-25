@@ -15,7 +15,7 @@ const frontendBaseURL = process.env.FRONTEND_BASE_URL;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser(secret));
-const cors = require('cors');
+
 
 app.use(cors({
   origin: 'https://amazing-froyo-135610.netlify.app',
